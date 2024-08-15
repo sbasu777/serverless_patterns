@@ -1,0 +1,14 @@
+service: aws-python-http-api
+frameworkVersion: '4'
+
+provider:
+  name: aws
+  runtime: python3.12
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - httpApi:
+          path: /
+          method: get
