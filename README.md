@@ -1,7 +1,7 @@
 
 # Serverless Examples
 
-A collection of ready-to-deploy [Serverless Framework](https://github.com/serverless/serverless) services.
+A collection of ready-to-deploy Serverless services.
 
 ## Table of Contents
 
